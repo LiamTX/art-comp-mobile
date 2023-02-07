@@ -10,10 +10,10 @@ import {
     VStack
 } from "native-base";
 import { MaterialIcons } from '@expo/vector-icons';
-import React from "react";
+import { useState } from "react";
 
 export function Login() {
-    const [show, setShow] = React.useState(false);
+    const [show, setShow] = useState(false);
 
     return (
         <Center height="full">
